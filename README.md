@@ -1,5 +1,5 @@
-Cybersecurity Projects – Nikola Marković
-This repository contains my hands‑on cybersecurity projects and technical write‑ups.
+### Cybersecurity Projects – Nikola Marković
+This repository contains my hands‑on cybersecurity projects and technical write‑ups.                                            
 Each project demonstrates practical skills I’ve acquired through real‑world‑style labs, simulations, and technical analysis.
 
 ### Projects
