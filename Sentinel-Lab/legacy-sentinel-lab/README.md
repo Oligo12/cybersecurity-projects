@@ -1,4 +1,4 @@
-# Microsoft Sentinel Hybrid SOC Lab
+# Microsoft Sentinel Hybrid SOC Lab (Legacy)
 
 This project simulates a hybrid enterprise environment with cloud-hosted AD, VPN-connected on-premises devices, and Microsoft Sentinel SIEM logging.  
 The lab includes simulated attacks, custom detection rules, and automated incident response.
@@ -13,4 +13,5 @@ The lab includes simulated attacks, custom detection rules, and automated incide
 
 ---
 - **Full Report:** [Sentinel Lab Report (PDF)](SentinelLab_NM.pdf)
+- **New Updated Lab:** [Sentinel Lab](sentinel-velociraptor-detection-lab/README.md)
 - **See all my home-lab projects here:** [cybersecurity-projects](https://github.com/Oligo12/cybersecurity-projects/tree/main)
