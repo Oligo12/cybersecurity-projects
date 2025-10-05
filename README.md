@@ -1,15 +1,14 @@
 ### Cybersecurity Projects – Nikola Marković
-This repository contains my hands‑on cybersecurity projects and technical write‑ups.                                            
-Each project demonstrates practical skills I’ve acquired through real‑world‑style labs, simulations, and technical analysis.
+Hands-on cybersecurity projects and technical write-ups from real-world-style labs.
 
 ### Projects
-- [QuasarRAT Analysis](./malware-analysis/QuasarRAT/README.md) – Native C++ dropper with .NET launcher. Documented AES-256 config decryption (PBKDF2), certificate pinning, persistence via Run keys, and network activity (Pastebin bootstrap + repeated TCP/4444 beacon attempts). Includes decrypted config, pfSense logs, and MITRE ATT&CK mapping.
+- **[Sentinel - Detection & Response (Velociraptor)](./Sentinel-Lab/sentinel-velociraptor-detection-lab/README.md)** – Alert -> Playbook -> Host action pipeline (Sentinel -> Logic App -> tokened webhook via Cloudflare -> Velociraptor API). KQL detections (AgentTesla, QuasarRAT) + demo **kill by PID**.                                                                                                                                                                      
+   **[Legacy lab](./Sentinel-Lab/legacy-sentinel-lab/README.md)** – Hybrid SOC (IPsec + Sysmon)
 
-- [Agent Tesla Analysis](./malware-analysis/AgentTesla/README.md) – Deobfuscated AutoIt loader, documents the loader spawning and using `RegSvcs.exe` as a host process to execute the payload (in-process/reflective execution), credential theft and keylogging functionality, and exfiltration attempts via SMTP. Includes process trees, API monitoring, and MITRE ATT&CK mapping.                                                                                                                                            
+- [QuasarRAT Analysis](./malware-analysis/QuasarRAT/README.md) – Native C++ dropper + .NET launcher; AES-256 (PBKDF2) config decryption, TLS pinning, Run-key persistence, Pastebin bootstrap, TCP/4444 beacons.
 
-- [WannaCry Ransomware Analysis](./malware-analysis/wannacry/README.md) – Static & dynamic malware analysis in an isolated lab. Documented dropped files, process chains, persistence mechanisms, targeted file types, and Tor C2 attempts.
-
-- [Microsoft Sentinel Home Lab](./Sentinel-Lab/README.md) – Hybrid SOC lab simulating a real enterprise environment with Microsoft Sentinel, Azure Arc, pfSense, and Sysmon. Built custom detection rules and automated alerts, validated through simulated attacks.
+- [Agent Tesla Analysis](./malware-analysis/AgentTesla/README.md) – AutoIt loader using **RegSvcs.exe** as host (reflective/in-process), creds theft + keylogging, SMTP exfil; process trees, API monitor, ATT&CK mapping.                                                                                                                                           
+- [WannaCry Ransomware Analysis](./malware-analysis/wannacry/README.md) – Static + dynamic in isolated lab; dropped files, process chains, persistence, targeted extensions, Tor C2 attempts.
 
 ### Contact
 [Email](mailto:nikola.z.markovic@pm.me)  |  [LinkedIn](http://linkedin.com/in/nikolazmarkovic)
