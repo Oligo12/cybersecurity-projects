@@ -13,5 +13,3 @@ Alert -> Playbook -> Host action. Microsoft Sentinel triggers a Logic App that c
 - **Demo action:** **Kill by PID** (JSON confirmation returned).
 
 **Flow:** Sentinel -> Logic App -> Cloudflare Tunnel -> Webhook -> Velociraptor -> Endpoint
-
-*Lab only. Tokened webhook; minimal hardening applied.*
