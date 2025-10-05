@@ -12,5 +12,5 @@ The lab includes simulated attacks, custom detection rules, and automated incide
 - **Automation** – Logic App playbook sending registry persistence alerts to Discord.
 
 ---
-- **Full Report:** [Sentinel Lab Report (PDF)](SentinelLab_NM.pdf)
+- **Full Report:** [Sentinel Lab Report (PDF)](Sentinel-Lab/legacy-sentinel-lab/SentinelLab_NM.pdf)
 - **See all my home-lab projects here:** [cybersecurity-projects](https://github.com/Oligo12/cybersecurity-projects/tree/main)
