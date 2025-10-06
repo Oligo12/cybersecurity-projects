@@ -123,7 +123,6 @@ _*Graph links user `LAB\ShawnSpencer`, host `client01`, parent `TESLAsample.exe`
 
 ### 9.1 Required hardening steps
 - Add rate limiting (Cloudflare WAF rule or Flask-Limiter) and rotate the webhook token.
-- Keep API/UI internal; consider mTLS or Access Policy if ever exposed.
 - Apply Cloudflare Zero Trust policy to the webhook route; restrict DNS egress via pfSense.
 
 ## 10) Limitations
