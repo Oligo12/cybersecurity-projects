@@ -2,7 +2,7 @@
 Hands-on cybersecurity projects and technical write-ups from real-world-style labs.
 
 ### Projects
-- **[Sentinel - Detection & Response (Velociraptor)](./Sentinel-Lab/sentinel-velociraptor-detection-lab/README.md)** – Alert -> Playbook -> Host action pipeline (Sentinel -> Logic App -> token-protected webhook via Cloudflare -> Velociraptor API). KQL detections (AgentTesla, QuasarRAT) + demo **kill by PID**.                                                                                                                                                                      
+- **[Sentinel x Velociraptor - Detection & Response Lab)](./Sentinel-Lab/sentinel-velociraptor-detection-lab/README.md)** – Alert -> Playbook -> Host action pipeline (Sentinel -> Logic App -> token-protected webhook via Cloudflare -> Velociraptor API). KQL detections (AgentTesla, QuasarRAT) + demo **kill by PID**.                                                                                                                                                                      
    **[Legacy lab](./Sentinel-Lab/legacy-sentinel-lab/README.md)** – Hybrid SOC (IPsec + Sysmon)
 
 - [QuasarRAT Analysis](./malware-analysis/QuasarRAT/README.md) – Native C++ dropper + .NET launcher; AES-256 (PBKDF2) config decryption, TLS pinning, Run-key persistence, Pastebin bootstrap, TCP/4444 beacons.
