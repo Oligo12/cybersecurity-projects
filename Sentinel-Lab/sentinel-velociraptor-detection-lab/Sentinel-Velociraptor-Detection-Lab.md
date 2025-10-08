@@ -1,4 +1,4 @@
-# Sentinel <=> Velociraptor Lab Report
+# Sentinel x Velociraptor - Detection & Response Lab 
 **Author:** Nikola Marković  
 **Status:** MVP (ongoing)  
 **Last updated:** 2025-10-05  
