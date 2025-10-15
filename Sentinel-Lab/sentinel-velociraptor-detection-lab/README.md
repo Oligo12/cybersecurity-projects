@@ -1,3 +1,7 @@
+# DEPRECATED REPO
+- This project moved to [cyber-projects](https://github.com/Oligo12/cyber-projects)
+- This repo is archived and will not receive updates.
+
 # Sentinel x Velociraptor - Detection & Response Lab 
 
 Alert -> Playbook -> Host action. Microsoft Sentinel triggers a Logic App that calls a token-protected Flask webhook (via Cloudflare Tunnel), which hits the **Velociraptor** API to act on the endpoint.
