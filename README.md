@@ -1,3 +1,7 @@
+# DEPRECATED REPO
+- This project moved to [cyber-projects](https://github.com/Oligo12/cyber-projects)
+- This repo is archived and will not receive updates.
+
 ### Cybersecurity Projects – Nikola Marković
 Hands-on cybersecurity projects and technical write-ups from real-world-style labs.
 
